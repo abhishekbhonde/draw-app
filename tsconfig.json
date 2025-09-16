@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // 👇 Important
+    "baseUrl": ".",
+    "paths": {
+      "db": ["packages/db/"],
+      "db/*": ["packages/db/*"]
+    }
+  },
+  "include": ["apps", "packages"]
+}

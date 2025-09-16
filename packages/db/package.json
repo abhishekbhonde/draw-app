@@ -1,0 +1,17 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "prisma generate && prisma migrate dev",
+    "generate": "prisma generate",
+    "migrate": "prisma migrate dev",
+    "studio": "prisma studio",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.2",
+    "prisma": "^6.16.2"
+  }
+}
